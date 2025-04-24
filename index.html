@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+    <!-- Section 1: Button click, hover, and keypress detection -->
+    <section>
+        <h2>Event Handling</h2>
+        <button id="clickButton">Click Me</button>
+        <button id="hoverButton">Hover over me</button>
+        <input type="text" id="keyPressInput" placeholder="Type something...">
+    </section>
+
+    <!-- Section 2: Interactive Element (Gallery) -->
+    <section>
+        <h2>Interactive Elements</h2>
+        <div id="gallery">
+            <img src="https://via.placeholder.com/150" alt="Image 1">
+            <img src="https://via.placeholder.com/150" alt="Image 2">
+            <img src="https://via.placeholder.com/150" alt="Image 3">
+        </div>
+        <button id="changeTextButton">Change My Text!</button>
+    </section>
+
+    <!-- Section 3: Form Validation -->
+    <section>
+        <h2>Form Validation</h2>
+        <form id="userForm">
+            <input type="text" id="username" placeholder="Enter your username" required><br><br>
+            <input type="email" id="email" placeholder="Enter your email" required><br><br>
+            <input type="password" id="password" placeholder="Password (min 8 characters)" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formFeedback"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
